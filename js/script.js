@@ -50,7 +50,7 @@ function changeQuote() {
     nIntervId = setInterval(printQuote, 20000);
 }
 
-//Randomly selecting quote from the pool of quotes
+//Randomly selecting quote from the pool of my best quotes
 function getRandomQuote(){
     randomIndex = Math.floor( (Math.random() * quotes.length));
     return quotes[randomIndex]
